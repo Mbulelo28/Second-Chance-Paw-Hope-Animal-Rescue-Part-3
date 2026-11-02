@@ -60,6 +60,8 @@ Added an image lightbox to the pet profile pages.
 Added SEO-related files (robots.txt and sitemap.xml).
 Improved the website's functionality and user experience.
 
-8. Conclusion
+8. I tried adding alt in my code in html but adding the code disrupted the whole website and they had to be removed to preserve the functionality of the website as a whole.
+
+9. Conclusion
 
 Second Chance Paw & Hope Animal Rescue combines HTML, CSS and JavaScript to create an informative and interactive animal rescue website. The website encourages visitors to support animal rescue through adoption, volunteering and donations.
