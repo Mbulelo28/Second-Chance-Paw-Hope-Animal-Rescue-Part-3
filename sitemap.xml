@@ -3,43 +3,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://YOUR-DOMAIN/Home.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/About%20us.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/Home.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/Adoption.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/About%20us.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/Volunteer.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/Adoption.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/Donate.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/Pet%20profile.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/Contact%20Us.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/pet-profile%202.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/Pet%20profile.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/pet-profile%203.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/pet-profile%202.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/pet-profile%204.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/pet-profile%203.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/Volunteer.html</loc>
     </url>
 
     <url>
-        <loc>https://YOUR-DOMAIN/pet-profile%204.html</loc>
+        <loc>https://second-chance-paw-and-hope.netlify.app/Donate.html</loc>
+    </url>
+
+    <url>
+        <loc>https://second-chance-paw-and-hope.netlify.app/Contact%20Us.html</loc>
     </url>
 
 </urlset>
+
