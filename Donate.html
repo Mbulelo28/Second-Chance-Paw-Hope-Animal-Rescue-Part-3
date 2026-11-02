@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donation</title>
+        <meta name="description" content="Support Second Chance Paw & Hope Animal Rescue by donating towards food, shelter and medical care for rescued animals.">
+
+        <link rel="stylesheet" href="Css/style.css">
+
+        <script src="js/script.js" defer></script>
+    </head>
+<body>
+<header>
+  <img src="Images/logo.png" class="logo">
+     <h1>Second Chance Paw & Hope Animal Rescue</h1>
+      <p>Rescuing pets. Restoring hope. Reuniting hearts.</p>
+<nav>
+  <a href="Home.html">Home</a>
+  <a href="About us.html">About us</a>
+  <a href="Adoption.html">Adoption</a>
+  <a href="Volunteer.html">Volunteer</a>
+  <a href="Donate.html">Donate</a>
+<a href="Contact Us.html">Contact Us</a>
+</nav>
+</header>
+<main>
+<section class="donate-intro">
+ <h2>Support Our Rescue</h2>
+  <p>
+    Your support can help us provide rescued animals
+    with the food, shelter, medical care and love they
+    need while they wait for their forever homes.
+  </p>
+
+   <p>
+    Every donation, no matter the amount, can make a
+    difference in the life of an animal.
+    </p>
+    <img src="Images/image.png" class="donation-image">
+ </section>
+
+<section class="donation-matters">
+    <h2>Why Your Donation Matters</h2>
+     <p>
+      Donations help Second Chance Paw & Hope Animal
+      Rescue provide essential care to animals in need.
+     </p>
+
+<ul>
+ <li>Food and clean water</li>
+ <li>Veterinary and medical care</li>
+ <li>Safe shelter</li>
+ <li>Rescue and rehabilitation</li>
+ <li>Support for adoption activities</li>
+ </ul>
+</section>
+
+ <section class="donation-ways">
+    <h2>Ways to Donate</h2>
+    <section class="donation-option">
+      <h3>Once-Off Donation</h3>
+        <p>
+          Make a once-off contribution to help provide
+          immediate care and support for rescued pets.
+        </p>
+ </section>
+
+ <section class="donation-option">
+  <h3>Monthly Donation</h3>
+   <p>
+    Become a regular supporter by making a monthly
+    contribution towards the ongoing care of pets.
+   </p>
+ </section>
+
+ <section class="donation-option">
+    <h3>Other Ways to Help</h3>
+     <p>
+      You can also support our rescue by volunteering,
+      fostering a pet or helping us spread awareness.
+     </p>
+     <a href="Volunteer.html">Learn About Volunteering</a> 
+  </section>
+
+</section>
+    <section class="donation-form">
+
+    <h2>Make a Donation</h2>
+
+      <p>
+          Complete the form below to indicate your donation.
+      </p>
+
+    <form id="donationForm">
+
+        <p>
+             <label for="donorName">Full Name:</label>
+             <br>
+             <input type="text" id="donorName" name="name" required>
+        </p>
+
+         <p>
+             <label for="donorEmail">Email Address:</label>
+             <br>
+             <input type="email" id="donorEmail" name="email" required>
+         </p>
+          <p>
+             <label for="donationType"> Donation Type:</label>
+              <br>
+
+                <select id="donation-type" name="donation-type" required>
+                        <option value="">
+                            Select donation type
+                        </option>
+
+                        <option value="once-off">
+                            Once-Off Donation
+                        </option>
+
+                        <option value="monthly">
+                            Monthly Donation
+                        </option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="amount">
+                        Donation Amount:
+                    </label>
+                    <br>
+
+                    <input type="number"
+                           id="amount"
+                           name="amount"
+                           min="1"
+                           required>
+                </p>
+                <p>
+                    <label for="payment">
+                        Preferred Payment Method:
+                    </label>
+                    <br>
+
+                    <select id="payment" name="payment">
+
+                        <option value="">
+                            Select payment method
+                        </option>
+
+                        <option value="card">
+                            Bank Card
+                        </option>
+
+                        <option value="eft">
+                            EFT
+                        </option>
+
+                        <option value="other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </p>
+
+                <p>
+                    <label for="message">
+                        Message (Optional):
+                    </label>
+                    <br>
+
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="40"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit Donation">
+                </p>
+
+                <p id="donationFeedback" hidden></p>
+
+   </form>
+
+</main>
+
+<footer> 
+  <h2>Second Chance Paw & Hope Animal Rescue</h2>
+<p>
+      Giving rescued animals a second chance
+      at a happy and loving life.
+</p>
+  &copy;ST10474328</footer>
+</body>
+</html>
